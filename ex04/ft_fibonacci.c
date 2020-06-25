@@ -6,7 +6,7 @@
 /*   By: tsoulo <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/23 16:04:16 by tsoulo            #+#    #+#             */
-/*   Updated: 2020/06/25 09:22:15 by tsoulo           ###   ########.fr       */
+/*   Updated: 2020/06/25 10:15:35 by tsoulo           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int ft_fibonacci(int index)
 		return ft_fibonacci(index-1) + ft_fibonacci(index-2);
 	}
 
-	:return (0);
+	return (0);
 }
 
 
